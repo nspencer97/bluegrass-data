@@ -103,3 +103,24 @@ nav ul li ul li a:hover {
 .contact-form button:hover{
     cursor: pointer;
 }
+.services-main {
+    background-color: #fff;
+    margin: 20px auto;
+    width: 75%;
+    padding: 10px:
+}
+#main-heading {
+    font-family: 'Cinzel', serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    margin-left: 15px;
+    
+}
+#sub-heading {
+    font-family: 'Cinzel', serif;
+    padding-left: 10px;
+    font-size: 24px;
+    margin-left: 15px;
+    font-style: italic;
+}
