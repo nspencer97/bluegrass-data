@@ -12,9 +12,9 @@ nav {
     background-color: #fff;
 }
 nav p {
-    font-family: Arial;
+    font-family: 'Cinzel', serif;
     color: #222;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 55px;
     float: left;
     padding: 0px 20px;
@@ -42,8 +42,13 @@ nav ul li ul {
     padding: 10px;
     border-radius: 0px 0px 4px 4px;
 }
+nav ul li:hover {
+    background-color: #f3f3f3;
+
+}
 nav ul li:hover ul {
     display: block;
+    background-color: #f3f3f3;
 }
 nav ul li ul li {
     width: 180px;
@@ -54,4 +59,47 @@ nav ul li ul li a{
 }
 nav ul li ul li a:hover {
     background-color: #f3f3f3;
+}
+.contact-page {
+    background-color: #fff;
+    margin: 20px auto;
+    width: 75%;
+    padding: 10px;
+}
+.contact-page h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+.contact-page p {
+    text-align:center;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.contact-form{
+    width: 320px;
+    margin: auto;
+}
+.contact-form input {
+    display: block;
+    padding: 5px;
+    margin-bottom: 25px;
+    width: 100%;
+    
+}
+.contact-form textarea {
+    display: block;
+    margin-bottom: 25px;
+    width: 104%;
+    height: 150px;
+}
+.contact-form button {
+    display: block;
+    padding: 5px;
+    width: 25%;
+    margin-bottom: 50px;
+}
+.contact-form button:hover{
+    cursor: pointer;
 }
