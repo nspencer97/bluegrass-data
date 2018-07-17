@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title>Bluegrass Data Solutions</title>
     <link rel="stylesheet" type="text/css" href="mainstyle.css">
+    <?php include(/xampp/htdocs/contact.php); ?>
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
 </head>
 <body>
@@ -34,7 +35,7 @@
     <div class="contact-page">
         <h2>Contact Bluegrass Data Solutions</h2>
         <p>Thank you for your interest in Bluegrass Data Solutions. Please complete the contact form below and a representative will respond to your inquiry as soon as possible.</p>
-        <form class="contact-form" action="contact.php" method="post">
+        <form class="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
             <input type="text" name="name" placeholder="Full Name" />
             <input type="text" name="company" placeholder="Company" />
             <input type="text" name="email" placeholder="Email" />
