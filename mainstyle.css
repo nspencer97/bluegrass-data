@@ -12,6 +12,11 @@ nav {
     height: 60px;
     background-color: #fff;
 }
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
 nav p {
     font-family: 'Open Sans', sans-serif;
     color: #222;
@@ -36,6 +41,9 @@ nav ul li a {
     padding: 22px 14px;
     text-decoration: none;
 }
+nav ul li a:hover {
+    color: #7e7ef1;
+}
 nav ul li ul {
     display: none;
     position: absolute;
@@ -58,9 +66,6 @@ nav ul li ul li {
 nav ul li ul li a{
     padding: 8px 14px;
 }
-nav ul li ul li a:hover {
-    background-color: #999999;
-}
 .contact-page {
     background-color: #fff;
     margin: 20px auto;
@@ -71,28 +76,42 @@ nav ul li ul li a:hover {
     text-align: center;
     padding: 10px;
     font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
 }
 .contact-page p {
     text-align:center;
     padding: 20px;
     margin-bottom: 30px;
     font-size: 20px;
+    font-family: sans-serif;
 }
 .contact-form{
     width: 320px;
     margin: auto;
 }
+.contact-form label {
+    font-family: sans-serif;
+}
 .contact-form input {
     display: block;
-    padding: 5px;
+    padding: 12px 20px;
+    margin-top: 4px;
     margin-bottom: 25px;
     width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
     
+}
+.contact-form input:focus {
+    background-color: lightblue;
+    border: none;
 }
 .contact-form textarea {
     display: block;
     margin-bottom: 25px;
-    width: 104%;
+    margin-top: 4px;
+    padding: 12px 20px;
+    width: 100%;
     height: 150px;
 }
 .contact-form button {
@@ -124,10 +143,10 @@ nav ul li ul li a:hover {
     font-style: italic;
 }
 #service-heading {
-    margin-left: 30px;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    font-size: 24px;
+    font-size: 35px;
 }
 #service-heading a {
     color: black;
@@ -135,5 +154,12 @@ nav ul li ul li a:hover {
 }
 #service-explanation {
     margin-left: 30px;
+    font-size: 22px;
     font-family: sans-serif;
+}
+.service-icon-main {
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
